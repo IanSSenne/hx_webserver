@@ -1,0 +1,15 @@
+{
+  "name": "hx_webserver",
+  "version": "1.0.0",
+  "description": "A basic HTTP server library for Haxe (HTTP only)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-mime-types": "node ./scripts/generate-mime-types.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mime-db": "^1.52.0"
+  }
+}
